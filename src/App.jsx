@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import {BrowserRouter , Route, Routes } from 'react-router-dom'
-import Layout from '../layout'
+import Layout from '../Layout.jsx'
 import UserAuth from './Pages/userAuth'
 
 
