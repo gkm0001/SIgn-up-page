@@ -66,7 +66,7 @@ function UserAuth({type}) {
                         {
                           type === 'sign-up' ? 'Already have an account?' : 'Don’t have an account?' 
                          }
-                         <Link to={type === 'sign-up' ? '/signin' : '/sign-up'}>
+                         <Link to={type === 'sign-up' ? '/signin' : '/'}>
                          <button className='text-black font-bold ml-2 cursor-pointer'>
                             {type === 'sign-up' ? 'Sign In' : 'Sign Up'}
                           </button>

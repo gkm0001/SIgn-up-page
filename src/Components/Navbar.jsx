@@ -39,7 +39,7 @@ function Navbar() {
                  </div>
                  <div className='gap-3'>
                  <div className='absolute top-0 right-0 mr-64 mt-3'>
-                      <Link to='/BlogWrite' className='hidden md:flex gap-2 text-dark-grey md:hover:text-black hover:bg-grey p-3 px-4  opacity-75'>
+                      <Link to='/' className='hidden md:flex gap-2 text-dark-grey md:hover:text-black hover:bg-grey p-3 px-4  opacity-75'>
                             <i class="fi fi-ts-blog-pencil"></i>
                             <p>write</p>
                       </Link>
