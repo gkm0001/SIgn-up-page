@@ -42,7 +42,7 @@ function UserAuth({type}) {
                        
                 </div>
                   
-                <button type='submit'  className='bg-black  ml-24 text-white py-3 px-6  rounded-full mt-4 hover:bg-opacity-80'
+                <button type='submit'  className='bg-black  ml-[33%] text-white py-3 px-6  rounded-full mt-4 hover:bg-opacity-80'
                 >
                     {type === 'sign-up' ? 'Sign Up' : 'Sign In'}
                 </button>
