@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function UserAuth({type}) {
   return (
     <>
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center justify-center md:mt-[5%]'>
              <form  className=' '>
                 <h1 className='font-gelasio text-3xl md:text-5xl text-center mb-12 md:mb-20 '>
                     {type==='sign-up' ? 'Please Sign Up' : 'Welcome Back'}
