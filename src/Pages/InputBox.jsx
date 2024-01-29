@@ -16,7 +16,7 @@ function InputBox({type,name,placeholder,icon,value,id}) {
        className={`w-[100%] rounded-md p-4 bg-grey pl-16 ${type === 'password' ? 'pr-16' : ''} border border-grey focus:bg-transparent placeholder:text-black mb-5`}
       />
      
-     <i className={"fi " +  icon + ' absolute mt-4 -translate-x-64 -ml-10'}></i>
+     <i className={"fi " +  icon + ' absolute mt-4  left-5 '}></i>
 
      {
            type === 'password' ? !showpassword ? 
