@@ -13,7 +13,7 @@ function InputBox({type,name,placeholder,icon,value,id}) {
        icon={icon} 
        value={value}
        id={id}
-       className={`w-[100%] rounded-md p-4 bg-grey pl-16 md:pl-12 ${type === 'password' ? 'pr-16' : ''} border border-grey focus:bg-transparent placeholder:text-black mb-5`}
+       className={`w-[100%] rounded-md p-4 bg-grey pl-12 ${type === 'password' ? 'pr-16' : ''} border border-grey focus:bg-transparent placeholder:text-black mb-5`}
       />
      
      <i className={"fi " +  icon + ' absolute mt-4 -translate-x-64 -ml-10'}></i>
